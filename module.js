@@ -7,3 +7,4 @@ require('./mind_grenade')
 // sayHi(names.jhon)
 // sayHi(names.peter)
 // console.log(data)
+// 53:47
