@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imobasshir/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imobasshir/test/issues"
+  },
+  "homepage": "https://github.com/imobasshir/test#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
