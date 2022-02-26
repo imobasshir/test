@@ -1,15 +1,17 @@
 const http = require('http')
 
 const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'content-type': 'text/html' })
+
     if (req.url === '/') {
-        res.end('Welcome')
+        res.write('<h1 style="text-align: center">Home Page</h1>')
+        res.end()
     } else if (req.url === '/about') {
-        res.end('About Page')
+        res.write('<h1 style="text-align: center">About Page</h1>')
+        res.end()
     } else {
-        res.end(`
-        <h1>Oops!</h1>
-        <p>We can't seem to find the page you are looking for</p>
-        `)
+        res.write('<h1 style="text-align: center">Oops!!!</h1>')
+        res.end()
     }
 })
 
